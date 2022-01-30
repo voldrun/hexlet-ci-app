@@ -11,4 +11,4 @@ jobs:
           node-version: '16.x'
       - run: make setup
       - run: make test
-        run: make lint
+      - run: make lint
